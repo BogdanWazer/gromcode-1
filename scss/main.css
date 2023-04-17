@@ -55,6 +55,7 @@ table {
 
 body {
   font-family: "Work Sans", sans-serif;
+  color: #2b292d;
 }
 
 .container {
@@ -181,9 +182,53 @@ body {
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
 }
+.footer__navigation {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+  padding-top: 44px;
+}
+.footer__navigation-downloads {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+.footer__about {
+  display: flex;
+  flex-direction: column;
+  height: 171px;
+  width: 360px;
+}
+.footer__about .logo-descr {
+  margin-top: 26px;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(43, 41, 45, 0.6);
+}
 
 .social-links {
   display: flex;
   gap: 20px;
   margin-left: auto;
+}
+
+.additional-navigation {
+  display: flex;
+  gap: 29px;
+  margin-left: 127px;
+}
+.additional-navigation__column {
+  width: 265px;
+}
+.additional-navigation__header {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+.additional-navigation__item {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(43, 41, 45, 0.6);
 }/*# sourceMappingURL=main.css.map */

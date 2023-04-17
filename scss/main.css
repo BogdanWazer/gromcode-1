@@ -287,4 +287,28 @@ body {
   right: 0;
   left: 453px;
   margin-bottom: 77px;
+}
+
+.about {
+  display: flex;
+  gap: 29px;
+  margin: auto;
+  background-color: #f4f5f7;
+  padding: 77px 130px 76px 130px;
+}
+.about__column {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  height: 102px;
+}
+.about__header {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+}
+.about__text {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 32px;
 }/*# sourceMappingURL=main.css.map */

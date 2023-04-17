@@ -162,6 +162,7 @@ body {
   opacity: 0.1;
 }
 .footer-nav {
+  display: flex;
   width: 1140px;
   margin: auto;
   line-height: 50px;
@@ -179,4 +180,10 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */

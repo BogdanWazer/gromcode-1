@@ -12,6 +12,7 @@
   }
 
   &-nav {
+    display: flex;
     width: 1140px;
     margin: auto;
     line-height: 50px;
@@ -32,4 +33,10 @@
       color: rgba(43, 41, 45, 0.6);
     }
   }
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
 }

@@ -311,4 +311,16 @@ body {
   margin-top: 15px;
   font-size: 22px;
   line-height: 32px;
+}
+
+.brands {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 81px;
+  padding-top: 30px;
+  align-items: center;
+  max-height: 100%;
+  filter: grayscale(100%);
 }/*# sourceMappingURL=main.css.map */

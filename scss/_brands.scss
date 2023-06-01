@@ -15,11 +15,11 @@
 .customers__item {
   display: flex;
   height: 94px;
-  width: 107px;
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #e3e3e3;
   border-right: 1px solid #e3e3e3;
+  flex: 1%;
 }
 
 .customers__item:last-child {

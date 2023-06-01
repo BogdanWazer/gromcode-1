@@ -1,0 +1,118 @@
+@media screen and (max-width: 399px) {
+  .features {
+    display: none;
+  }
+}
+
+.tips {
+  margin-top: 8px;
+
+  .tip {
+    padding: 48px 15px 0 15px;
+    border-bottom: 1px solid #e3e3e3;
+
+    &__title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.357143px;
+      margin-bottom: 15px;
+    }
+
+    &__subtitle {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      color: #009b4d;
+      margin-bottom: 17px;
+    }
+
+    &__description {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 13px;
+    }
+
+    &__image {
+      display: flex;
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 29px;
+    }
+
+    &__image-description {
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(43, 41, 45, 0.6);
+      padding-top: 19px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+// .tips__advantages {
+//   display: flex;
+//   align-items: center;
+//   margin-top: 42px;
+
+//   &-item {
+//     display: flex;
+//     align-items: center;
+//     margin-top: 30px;
+//   }
+
+//   &-icon {
+//     width: 24px;
+//     height: 24px;
+
+//     &-item {
+//       color: #2b292d;
+//     }
+//   }
+
+//   &-text {
+//     font-weight: 700;
+//     font-size: 22px;
+//     color: #3142c6;
+//     line-height: 26px;
+//     margin-left: 15px;
+//     cursor: pointer;
+
+//     &-item {
+//       font-weight: 700;
+//       font-size: 22px;
+//       line-height: 26px;
+//       margin-left: 15px;
+//       cursor: pointer;
+//       color: #2b292d;
+//     }
+//   }
+
+//   &-description {
+//     width: 459px;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 26px;
+//     margin-top: 8px;
+//   }
+
+//   &-line {
+//     margin-top: 20px;
+//     width: 457px;
+//     height: 3px;
+//     background-color: #3142c6;
+
+//     &-item {
+//       margin-top: 20px;
+//       width: 457px;
+//       height: 2px;
+//       background-color: #2b292d;
+//       opacity: 0.1;
+//     }
+//   }
+// }
+// }

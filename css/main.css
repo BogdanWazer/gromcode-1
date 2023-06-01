@@ -416,40 +416,96 @@ html {
   }
 }
 .about {
-  display: flex;
-  gap: 29px;
-  margin: auto;
+  padding: 46px 15px;
+  width: 100%;
   background-color: #f4f5f7;
-  padding: 77px 130px 76px 130px;
-}
-.about__column {
-  display: flex;
-  flex-direction: column;
-  width: 555px;
-  height: 102px;
 }
 .about__header {
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
+  margin: 0;
+}
+.about__column:last-child {
+  margin-top: 20px;
 }
 .about__text {
-  margin-top: 15px;
   font-size: 22px;
+  margin-bottom: 0;
+  margin-top: 6px;
   line-height: 32px;
 }
 
-.brands {
+@media screen and (min-width: 400px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+  .about__column {
+    width: 555px;
+    margin-bottom: 0;
+  }
+  .about__column:last-child {
+    margin-top: 0px;
+  }
+}
+.customers {
   display: flex;
-  width: 1140px;
-  margin: auto;
-  justify-content: space-between;
-  padding-top: 30px;
-  align-items: center;
-  max-height: 100%;
-  filter: grayscale(100%);
+  flex-direction: column;
 }
 
+.customer__logo {
+  filter: grayscale(100%);
+  max-width: 80%;
+}
+
+.customers__row {
+  display: flex;
+}
+
+.customers__item {
+  display: flex;
+  height: 94px;
+  width: 107px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+}
+
+.customers__item:last-child {
+  border-right: none;
+}
+
+@media screen and (min-width: 400px) {
+  .customers {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    margin: auto;
+    padding-top: 30px;
+    align-items: center;
+    max-height: 100%;
+    filter: grayscale(100%);
+  }
+  .customers__item {
+    display: flex;
+    height: 94px;
+    width: 107px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    flex-direction: row;
+  }
+  .customer__logo {
+    max-width: 80%;
+  }
+  .customers__row {
+    justify-content: space-around;
+    flex: 1;
+  }
+}
 .features {
   position: relative;
   width: 1140px;

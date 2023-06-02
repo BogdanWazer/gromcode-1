@@ -21,3 +21,17 @@ html {
     }
   }
 }
+
+
+
+@media screen and (min-width: 400px) {
+  .hide_desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .hide_mobile {
+    display: none;
+  }
+}
